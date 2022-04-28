@@ -1,0 +1,171 @@
+html{
+    background-color: white;
+  font-family: "Arial";
+}
+
+#wrapper {
+    max-width: 1280px;
+    min-width: 640px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    background-color: black;
+}
+header h1{
+    padding: 25px;
+}
+
+nav {
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: -50px;;
+    padding-bottom: 15px;
+}
+
+header nav li {
+    display: inline-block;
+    margin-right: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+form{
+    border: 8px solid gray;
+    margin: auto;
+    padding: 25px;
+    width: 400px;
+}
+
+
+footer {
+    text-align: center;
+    background-color: lightgray;
+    padding: 10px;
+    display: block;
+    clear: both;
+}
+
+#intro img {
+    width: 1280px;
+    margin-bottom: -105px;
+}
+
+#about h2 {
+    text-align: center;
+    /*background-color: white;*/
+    padding: 50px;
+    margin-top: 100px;
+}
+#about p{
+    width: 400px;
+    margin-left: 200px;
+    float: left;
+    font-size: 24px;
+    padding-right: 100px;
+}
+#about img {
+    display: inline-block;
+    width: 300px;
+}
+
+#snowboards h2{
+    text-align: center;
+}
+
+#snowboards{
+    margin: 0 auto;
+}
+#snowboards h2 {
+    /*background-color: white;*/
+    padding: 50px;
+    margin-top: 100px;
+}
+
+#productShowcase {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#productShowcase img {
+    width: 350px;
+    display: inline-block;
+}
+
+#productShowcase p {
+    width: 600px;
+    display: inline-block;
+    background-color: lightgray;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+
+#products {
+    text-align: center;
+    padding: 25px;
+}
+#p1, #p2, #p3, #p4{
+    display: inline-block;
+    
+    width: 250px;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#p1 img, #p2 img, #p3 img, #p4 img{
+    width: 250px;
+
+}
+
+#contact h2, #game h2 {
+    text-align: center;
+}
+
+#contact{
+    float: left;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+#game {
+    float: right;
+    margin-right: 50px;
+    text-align: center;
+}
+
+
+
+.hidden {
+    visibility: hidden;
+    height: 0px;
+}
+
+.error{
+    color: red;
+}
+
+.darkModeDark{
+    background-color: #414f66;
+}
+.darkModeMed{
+    background-color: #5a6d8c;
+}
+.darkModeLight{
+    background-color: #92b0e0;
+}
+
+.lightMode{
+    background-color: #f5f5f5;
+}
+.lightModeWhite{
+    background-color: white;
+}
