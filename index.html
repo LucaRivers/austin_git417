@@ -1,11 +1,123 @@
 <!DOCTYPE html>
+<!--All image are from Buron.com (https://www.burton.com/us/en/home) under fair use for education. This website is strictly for educational purposes only-->
 <html lang="en" dir="ltr">
     <head>
+        <link rel="stylesheet" href="styles.css">
+        <script src="scripts.js" async></script>
+        <title>Burton</title>
         <meta charset="utf-8">
-        <title>GitHub Test</title>
     </head>
+
     <body>
-        <h1>GitHub html branch test</h1>
-        <p>First creating a GitHub repo and editing files!</p>
+        <div id="wrapper" class="lightMode">
+            <header>
+                <h1>Burton Snowboards</h1>
+                <nav class="lightMode">
+                    <h2 class="hidden">navigation</h2>
+                    <ul>
+                        <li><a href="#snowboards">Snowboards</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#game">Game</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <main>
+                <section id="intro">
+                    <h2 class="hidden">intro</h2>
+                    <h2>Added to GitHub</h2>
+                    <img src="homepageAlaska.png" alt="Snowboard Homepage Image">
+                </section>
+
+                <section id="about">
+                    <h2  class="lightModeWhite">About</h2>
+                    <p><strong>Jake said it best:</strong> riding is the reason. Everything we do, who we are, where we come from, and where we want to go is all rooted in snowboarding and ensuring the long-term health of our sport and community.</p>
+                    <p>It’s in our nature. We build community, seek freedom, share experiences that connect us to one another, and indulge in the things that make us feel alive.</p>
+                    <img src="jake.png" alt="jakeBurton">
+                </section>
+
+                <section id="snowboards">
+                    <h2 class="lightModeWhite">Snowboards</h2>
+                    <section id="productShowcase">
+                        <img src="burtonCustom2023.png" alt="burtonCustom2023">
+                        <h3>Burton Custom 2023</h3>
+                        <p>From its humble beginnings, innovation has defined the Burton Custom Snowboard series and set it apart as the most popular, versatile, and mimicked board in snowboarding. Since 1996, this icon has reigned supreme and constantly evolved with a proven formula that combines time-honored design with envelope-pushing ingredients to create a lightweight, poppy, and highly versatile board. Offered in two versions, the precision and stability of the Custom camber is the top choice for many pro riders, while the Custom Flying V™ combines camber's power with the relaxed float of rocker for the best of both worlds.</p>
+                    </section>
+
+                    <section id="products">
+                        <h2 class="hidden">products</h2>
+                        <section id="p1" class="lightModeWhite">
+                            <img src="burtonCustom2023.png" alt="burtonCustom2023">
+                            <h3>Burton Custom Camber 2023</h3>
+                        </section>
+
+                        <section id="p2" class="lightModeWhite">
+                            <img src="burtonProcess2023.png" alt="burtonProcess2023">
+                            <h3>Burton Process Camber 2023</h3>
+                        </section>
+
+                        <section id="p3" class="lightModeWhite">
+                            <img src="burtonHometownHero2023.png" alt="burtonHometownHero2023">
+                            <h3>Burton Hometown Hero 2023</h3>
+                        </section>
+
+                        <section id="p4" class="lightModeWhite">
+                            <img src="burtonFeelgood2023.png" alt="burtonFeelgood2023">
+                            <h3>Burton Feelgood Camber 2023</h3>
+                        </section>
+
+                    </section>
+                </section>
+
+                <section id="contact">
+                    <h2>Contact</h2>
+                    <form id="contactForm">
+                        <label for="userName">Full Name:</label><br>
+                        <input type="text" name="userName" id="userName" required><span></span><br>
+
+                        <label for="phone">Phone Number:</label><br>
+                        <input type="text" name="phone" id="phone"><span></span><br>
+
+                        <label for="userEmail">Email:</label><br>
+                        <input type="text" name="userEmail" id="userEmail"><span></span><br>
+
+                        <label for="userComments">Comments:</label><br>
+                        <input type="text" name="userComments" id="userComments" required><span></span><br>
+
+                        <fieldset>
+                            <legend>Choose your Contact Preference:</legend>
+                            <label for="contactMethodEmail" class="radio">Email</label>
+                            <input type="radio" name="contactMethod" id="contactMethodEmail" checked>
+
+                            <label for="contactMethodPhone" class="radio">Phone</label>
+                            <input type="radio" name="contactMethod" id="contactMethodPhone">
+                        </fieldset>
+                        <br>
+                        <input type="submit" id="userSubmit">
+                        <p id="submitedFormContense"></p>
+                    </form>
+                </section>
+
+                <section id="game">
+                    <h2>Game</h2>
+                    <form id="probabilityGame">
+                        <p>Enter a number between 1 and 10 to have a chance of winning a discount!</p><br>
+                        <label for="numberEntry">Number:</label><br>
+                        <input type="number" name="numberEntry" id="numberEntry"><span></span>
+
+                        <br><br>
+                        <input type="submit" id="numberSubmit">
+                        <p id="probabilityGameResult"></p>
+                    </form>
+                </section>
+
+            </main>
+
+            <footer>
+                <h2>Burton</h2>
+                <h3>Dark / Light</h3>
+            </footer>
+        </div>
     </body>
 </html>
